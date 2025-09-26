@@ -72,7 +72,7 @@ the Python interpreter creates a new `list`, and changes the value of `x` to ref
 
 ### Problem 2a
 
-59.8. 
+Roughly 59.8. 
 
 **Explanation (Optional):** Sophie calculated this using the following code.
 ```python
