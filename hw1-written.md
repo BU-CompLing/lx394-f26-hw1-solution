@@ -2,6 +2,8 @@
 
 ### Problem 1a
 
+The code `hw1.hello_world()` calls the function `hello_world` defined in the `hw1.py` file (a.k.a. the `hw1` module).
+
 To call the function `foo_bar` in `hw1.py`, you would run `hw1.foo_bar()`.
 
 ### Problem 1b
