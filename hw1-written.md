@@ -8,7 +8,14 @@ To call the function `foo_bar` in `hw1.py`, you would run `hw1.foo_bar()`.
 
 ### Problem 1b
 
-If you changed `hw1.py` while running the notebook and you wanted to use the new version of your code, you would _reload_ the `hw1` module by running `importlib.reload(hw1)`.
+If you change `hw1.py` after having already imported it as a module, those changes are not automatically reflected in your current Python session. Thus, if you call `hw1.my_name()` after modifying this function, you should still get the original output:
+```
+>>> hw1.my_name()
+Hello world!
+My name is _.
+```
+
+To use your edited code without having to restart your session, you would _reload_ the `hw1` module by running `importlib.reload(hw1)`.
 
 ### Problem 1c
 
